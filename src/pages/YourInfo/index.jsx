@@ -62,21 +62,21 @@ const YourInfo = ({setPersonalInfo, personalInfo}) => {
           <label className="form-control__label" htmlFor="fname">Name</label>
           <span className="form-control__error">{errors.name}</span>
         </div>
-        <input type-="text" name="fname" id="fname" className="form-control" placeholder="e.g. Stephen King" value={name ? name : ''} onChange={event => setName(event.target.value)} />
+        <input type-="text" name="fname" id="fname" className="form-control" placeholder="e.g. Stephen King" enterkeyhint="next" value={name ? name : ''} onChange={event => setName(event.target.value)} />
       </div>
       <div className={`form-group ${errors.email && `form-group--error`}`}>
         <div className="form-group__labels">
           <label className="form-control__label" htmlFor="email">Email address</label>
           <span className="form-control__error">{errors.email}</span>
         </div>
-        <input type="email" name="email" id="email" className="form-control" placeholder="e.g. stephenking@lorem.com" value={email ? email : ''} onChange={event => setEmail(event.target.value)} />
+        <input type="email" name="email" id="email" className="form-control" placeholder="e.g. stephenking@lorem.com" enterkeyhint="next" value={email ? email : ''} onChange={event => setEmail(event.target.value)} />
       </div>
       <div className={`form-group ${errors.telephone && `form-group--error`}`}>
         <div className="form-group__labels">
           <label className="form-control__label" htmlFor="telephone">Phone mumber</label>
           <span className="form-control__error">{errors.telephone}</span>
         </div>
-        <input type="number" name="telephone" id="telephone" className="form-control" placeholder="e.g. +1 234 567 890" value={telephone ? telephone : ''} onChange={event => setTelephone(event.target.value)} />
+        <input type="number" name="telephone" id="telephone" className="form-control" placeholder="e.g. +1 234 567 890" enterkeyhint="done" value={telephone ? telephone : ''} onChange={event => setTelephone(event.target.value)} />
       </div>
 
       <section className="form-buttons">
