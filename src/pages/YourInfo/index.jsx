@@ -69,7 +69,7 @@ const YourInfo = ({setPersonalInfo, personalInfo}) => {
           <label className="form-control__label" htmlFor="email">Email address</label>
           <span className="form-control__error">{errors.email}</span>
         </div>
-        <input type-="text" name="email" id="email" className="form-control" placeholder="e.g. stephenking@lorem.com" value={email ? email : ''} onChange={event => setEmail(event.target.value)} />
+        <input type="email" name="email" id="email" className="form-control" placeholder="e.g. stephenking@lorem.com" value={email ? email : ''} onChange={event => setEmail(event.target.value)} />
       </div>
       <div className={`form-group ${errors.telephone && `form-group--error`}`}>
         <div className="form-group__labels">
