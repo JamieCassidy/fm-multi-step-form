@@ -160,7 +160,6 @@ class App extends React.Component {
             </div>
           </section>
         </form>
-        <button type="button" onClick={() => this.clearFormState()}>Reset form</button>
       </>
     );
   }
