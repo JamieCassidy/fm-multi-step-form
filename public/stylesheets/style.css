@@ -389,6 +389,7 @@ body {
 .plan-saving {
   display: block;
   margin-top: 4px;
+  color: var(--blue-950);
 }
 
 .period-toggle {
