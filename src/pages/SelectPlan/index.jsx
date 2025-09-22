@@ -29,7 +29,7 @@ const SelectPlan = ({plans, selectedPlan, yearlyPricing, setPlan, toggleYearlyPr
       <h1 className="form-content__title">Select your plan</h1>
       <p className="text-preset--3-regular form-content__subtitle">You have the option of monthly or yearly billing.</p>
       
-      <span className="validation-error">{error}</span>
+      { error && <span className="validation-error">{error}</span>}
 
       <ul className="plans">
         { plans.map(plan => (
