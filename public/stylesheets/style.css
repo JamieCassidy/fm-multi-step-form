@@ -281,7 +281,7 @@ body {
 }
 
 .form-content {
-  margin: -75px var(--spacing-200) 0;
+  margin: -75px var(--spacing-200) 90px;
   border-radius: 10px;
   background-color: var(--white);
   padding: var(--spacing-400) var(--spacing-300);
@@ -449,8 +449,9 @@ body {
 }
 
 .validation-error {
+  display: block;
   color: var(--red-500);
-  margin-bottom: var(--spacing-400);
+  margin-bottom: var(--spacing-200);
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.2;
