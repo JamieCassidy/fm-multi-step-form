@@ -1,5 +1,3 @@
-import React, {useMemo} from 'react';
-
 const Summary = ({selectedPlan, addons, selectedAddons, yearlyPricing, goToStep, goBack, goNext}) => {
   const multiplier = yearlyPricing ? 10 : 1;
   const period = yearlyPricing ? "/yr" : "/mo";
