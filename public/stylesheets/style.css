@@ -686,6 +686,7 @@ body {
     box-shadow: 0 25px 40px -20px rgba(0, 0, 0, 0.10);
     width: 686px;
     height: 600px;
+    overflow: hidden;
   }
 
   .form-stepper {
