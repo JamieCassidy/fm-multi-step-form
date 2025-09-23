@@ -73,7 +73,7 @@ const YourInfo = ({setPersonalInfo, personalInfo}) => {
       </div>
       <div className={`form-group ${errors.telephone && `form-group--error`}`}>
         <div className="form-group__labels">
-          <label className="form-control__label" htmlFor="telephone">Phone mumber</label>
+          <label className="form-control__label" htmlFor="telephone">Phone number</label>
           <span className="form-control__error">{errors.telephone}</span>
         </div>
         <input type="tel" name="telephone" id="telephone" className="form-control" placeholder="e.g. +1 234 567 890" enterkeyhint="done" value={telephone ? telephone : ''} onChange={event => setTelephone(event.target.value)} />
