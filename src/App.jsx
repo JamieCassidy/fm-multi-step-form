@@ -107,14 +107,14 @@ class App extends React.Component {
     this.setState({
       selectedPlan
     },
-    this.goNext())
+    this.goNext)
   }
 
   setAddons = selectedAddons => {
     this.setState({
       selectedAddons
     },
-    this.goNext())
+    this.goNext)
   }
 
   render() {
