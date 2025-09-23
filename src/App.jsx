@@ -5,7 +5,6 @@ import SelectPlan from './pages/SelectPlan';
 import AddOns from './pages/AddOns';
 import Summary from './pages/Summary';
 import Confirmation from './pages/Confirmation';
-// import './assets/stylesheets/style.css';
 
 class App extends React.Component {
   constructor(props) {
@@ -79,7 +78,6 @@ class App extends React.Component {
 
   goNext = () => {
     const index = this.steps.indexOf(this.state.step)
-    // if (!isValidByStep[step]) return
     if (index < this.steps.length - 1) this.setStep(this.steps[index + 1])
   }
 
