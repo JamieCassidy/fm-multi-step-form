@@ -32,6 +32,9 @@ Users should be able to:
 
 ### Screenshot
 
+<img width="375" alt="magnificent-meerkat-2a2333 netlify app_(iPhone SE)" src="https://github.com/user-attachments/assets/893ea57c-3671-4b77-b16a-1698c72dcd3a" />
+<img width="819" alt="magnificent-meerkat-2a2333 netlify app_" src="https://github.com/user-attachments/assets/ac61b8b4-25ad-4084-8576-c45a0d68052d" />
+<img width="1160" alt="magnificent-meerkat-2a2333 netlify app_ (1)" src="https://github.com/user-attachments/assets/9c64e535-7b5c-4f1f-8f39-fe92d2898e7b" />
 
 
 ### Links
