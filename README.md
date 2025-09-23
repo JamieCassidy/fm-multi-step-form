@@ -54,11 +54,12 @@ Users should be able to:
 
 ### What I learned
 
-This was a really good excercise in improving my React chops. I'm fairly comfortable writing HTML and CSS but still have a lot to learn on the React and Javascript front.
+This was a really good excercise to improve my React knowledge. I feel like I've learnt a lot since starting this challenge and would definitely feel more comfortable building react apps going forward. I put a lot of effort into accurately re-creating the designs in the browser which was a real test of my HTML and CSS knowledge.
+
 
 ### Continued development
 
-One thing I'd like to improve on is managing the state better using React contexts or a third part state management library. It's absolutely not essential for this project but I'd like to get to grips with how they work for larger more complex applications.
+One thing I'd like to improve on is managing the state better using React contexts or a third part state management library. It's absolutely not essential for this project given it's size but I'd like to get to grips with how they work for larger more complex applications.
 
 ## Author
 
