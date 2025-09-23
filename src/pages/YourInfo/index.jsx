@@ -62,7 +62,7 @@ const YourInfo = ({setPersonalInfo, personalInfo}) => {
           <label className="form-control__label" htmlFor="fname">Name</label>
           <span className="form-control__error">{errors.name}</span>
         </div>
-        <input type-="text" name="fname" id="fname" className="form-control" placeholder="e.g. Stephen King" enterkeyhint="next" value={name ? name : ''} onChange={event => setName(event.target.value)} />
+        <input type="text" name="fname" id="fname" className="form-control" placeholder="e.g. Stephen King" enterkeyhint="next" value={name ? name : ''} onChange={event => setName(event.target.value)} />
       </div>
       <div className={`form-group ${errors.email && `form-group--error`}`}>
         <div className="form-group__labels">
@@ -76,7 +76,7 @@ const YourInfo = ({setPersonalInfo, personalInfo}) => {
           <label className="form-control__label" htmlFor="telephone">Phone mumber</label>
           <span className="form-control__error">{errors.telephone}</span>
         </div>
-        <input type="number" name="telephone" id="telephone" className="form-control" placeholder="e.g. +1 234 567 890" enterkeyhint="done" value={telephone ? telephone : ''} onChange={event => setTelephone(event.target.value)} />
+        <input type="tel" name="telephone" id="telephone" className="form-control" placeholder="e.g. +1 234 567 890" enterkeyhint="done" value={telephone ? telephone : ''} onChange={event => setTelephone(event.target.value)} />
       </div>
 
       <section className="form-buttons">
