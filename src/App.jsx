@@ -119,7 +119,7 @@ class App extends React.Component {
 
   render() {
     return(
-      <>
+      <main>
         <form className="form">
           <Stepper step={this.state.step} />
           <section className={`form-content ${this.state.step === "confirmation" && `form-content__confirmation`}`}>
@@ -158,7 +158,7 @@ class App extends React.Component {
             </div>
           </section>
         </form>
-      </>
+      </main>
     );
   }
 }
